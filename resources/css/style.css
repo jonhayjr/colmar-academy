@@ -1,0 +1,18 @@
+/*Header*/
+.nav {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.nav__icons {
+    height: 100%;
+    max-width: 100%;
+}
+
+/*Section*/
+.section1__banner {
+    max-width: 100%;
+    height: auto;
+}
