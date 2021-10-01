@@ -1,3 +1,8 @@
+a {
+    color: rgb(0, 153, 255);
+    text-decoration: none;
+}
+
 /*Header*/
 .nav {
     display: flex;
@@ -45,4 +50,36 @@
     width: 90%;
     margin: 0 auto;
     display: block;
-} 
+}
+
+/*Section 2*/
+.section2 {
+    padding: 16px 16px 24px 16px;
+}
+
+.section2__image {
+    width: 100%;
+    height: auto;
+}
+
+.section2__text {
+    margin-left: 16px;
+}
+
+.section2__heading {
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.section2__paragraph {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.section2__link {
+    font-size: 20px;
+}
+
+.section2__text:not(:last-child) {
+    margin-bottom: 30px;
+}
