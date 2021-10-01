@@ -11,8 +11,38 @@
     max-width: 100%;
 }
 
-/*Section*/
-.section1__banner {
-    max-width: 100%;
-    height: auto;
+/*Section1*/
+.section1 {
+    background-color: lightgray;
+    padding-bottom: 32px;
 }
+
+.section1__banner {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.section1__h2 {
+    margin: 0 16px 32px 16px;
+    font-size: 40px;
+    line-height: 1.5;
+}
+
+.section1__paragraph {
+    margin: 0 16px 24px 16px;
+    font-size: 25px;
+    line-height: 1.2;
+}
+
+.section1__button {
+    border: none;
+    background-color: rgba(0, 0, 0, 0.308);
+    color: white;
+    font-weight: 300;
+    font-size: 25px;
+    padding: 10px;
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+} 
