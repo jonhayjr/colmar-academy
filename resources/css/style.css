@@ -1,8 +1,18 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
 a {
     color: rgb(0, 153, 255);
     text-decoration: none;
 }
 
+li {
+    list-style: none;
+}
+
+/* ================================= 
+    Base Layout Styles
+  ==================================== */
 /*Header*/
 .nav {
     display: flex;
@@ -82,4 +92,25 @@ a {
 
 .section2__text:not(:last-child) {
     margin-bottom: 30px;
+}
+
+/*Section3*/
+.section3 {
+    margin: 32px 0;
+}
+
+.section3__heading {
+    text-align: center;
+    font-size: 35px;
+}
+
+.section3__list__item {
+    padding: 16px 16px 24px 16px;
+    font-size: 20px;
+    background-color: lightgray;
+    width: 85%;
+}
+
+.section3__list__item:not(:last-child) {
+    margin-bottom: 8px;
 }
