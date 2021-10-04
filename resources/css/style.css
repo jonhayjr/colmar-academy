@@ -214,20 +214,50 @@ li {
         max-width: 100%;
     }
 
+    .section1__h2 {
+        font-size: 30px;
+    }
+
     .section1__button {
         padding: 8px;
     }
 
-    .banner-div,
+    .banner-div {
+        margin-right: 24px;
+        flex-basis: 60%;
+    }
+
     .banner-text-div {
         display: flex;
         flex-direction: column;
-        align-content: center;
         justify-content: center;
+        align-content: center;
+        flex-basis: 40%;
     }
 
-    .banner-div {
-        margin-right: 24px;
+    /*Section2*/
+    .section2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .section2__col1 {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .section2__col2 {
+    }
+
+    .section2__col1__image {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .section2__image {
+       width: 35%;
     }
 
     /*Hide mobile items*/
