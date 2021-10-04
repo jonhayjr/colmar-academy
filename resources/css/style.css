@@ -202,6 +202,34 @@ li {
         margin-right: 16px;
     }
 
+    /*Section1*/
+    .section1 {
+        display: flex;
+        justify-content: center;
+        padding-top: 32px;
+        padding-left: 24px;
+    }
+
+    .section1__banner {
+        max-width: 100%;
+    }
+
+    .section1__button {
+        padding: 8px;
+    }
+
+    .banner-div,
+    .banner-text-div {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .banner-div {
+        margin-right: 24px;
+    }
+
     /*Hide mobile items*/
     .mobile {
         display: none;
