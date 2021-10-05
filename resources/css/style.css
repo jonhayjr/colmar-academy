@@ -160,6 +160,11 @@ li {
     Media Queries
 ==================================== */
 @media (min-width: 768px){
+     /*Hide mobile items*/
+     .mobile {
+        display: none;
+    }
+
     /*Nav*/
     .header {
         display: flex;
@@ -296,9 +301,46 @@ li {
         background-color: lightgray;
     }
 
-    /*Hide mobile items*/
-    .mobile {
-        display: none;
+    /*Section3*/
+    .section3 {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 32px 72px;
+        background-color: lightgray;
+    }
+
+    .section3__heading {
+        margin-bottom: 32px;
+    }
+
+    .section3__grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 32px;
+    }
+
+    .section3__image {
+        height: auto;
+        max-width: 100%;
+    }
+
+    .section3__div {
+        background-color: white;
+        padding-left: 16px;
+        padding-bottom: 24px;
+    }
+
+    .section3__h3 {
+        margin-top: 16px;
+        margin-bottom: 8px;
+    }
+
+    .section3__h4 {
+        margin-bottom: 8px;
+    }
+
+    .section3__p {
+        width: 75%;
     }
 }
 
