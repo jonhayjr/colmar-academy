@@ -238,30 +238,72 @@ li {
     /*Section2*/
     .section2 {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-content: center;
     }
 
     .section2__col1 {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: 32px 24px;
+        flex-basis: 60%;
+    }
+
+    .section2__col1__image {
+        max-width: 100%;
         margin: 0 auto;
     }
 
     .section2__col2 {
+        flex-basis: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
     }
 
-    .section2__col1__image {
-        width: 60%;
-        margin: 0 auto;
+    .section2__col2__div {
+        display: flex;
+        margin-top: 16px;
+        margin-left: 16px;
+        justify-content: center;
+        align-content: center;
     }
 
     .section2__image {
        width: 35%;
+       max-height: 100%;
+    }
+
+    .section2__text {
+       width: 65%;
+    }
+
+    .section2__heading {
+        margin-bottom: 8px;
+        font-size: 18px;
+    }
+
+    .section2__paragraph {
+        margin-bottom: 8px;
+        font-size: 12px;
+
+    }
+
+    .section2__link {
+        font-size: 15px;
+    }
+
+    .guest__lecture {
+        background-color: lightgray;
     }
 
     /*Hide mobile items*/
     .mobile {
         display: none;
     }
+}
+
+@media (min-width: 1024px){
+
+
+
 }
