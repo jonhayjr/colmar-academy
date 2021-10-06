@@ -406,6 +406,20 @@ li {
     .fisma {
         background-color: lightgray;
     }
+
+    /*Footer*/
+    .footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer__list {
+        display: flex;
+    }
+
+    .footer__list__item {
+        margin-right: 10px;
+    }
 }
 
 @media (min-width: 1024px){
